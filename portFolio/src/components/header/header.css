@@ -39,7 +39,7 @@ body{
 
 .navDiv h3{
   cursor: pointer;
-  color: blue;
+  color: #007bff;
   font-weight: 500;
   font-size: 25px;
 }
