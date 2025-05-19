@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.aboutDiv {
+  background-color: #0f172a;
+  border-radius: 5px;
+  padding: 5rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  color: #daddad;
+  max-width: 1000px;
+  align-items: center;
+  margin: 290px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  overflow-x: hidden;
+}
+
+.aboutContent {
+  flex: 1;
+  max-width: 600px;
+
+}
+
+
+
+
+
+.aboutContent p {
+  font-size: 17px;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+
+
+.profileImage {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 3px solid #007bff;
+  object-fit: cover;
+}

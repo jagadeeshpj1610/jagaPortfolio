@@ -1,0 +1,45 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+}
+
+.navList{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  gap: 55px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.navItem{
+  list-style: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.navDiv{
+  position: fixed;
+  top: 0;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  background-color: black;
+  color: white;
+  width: 100%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  user-select: none;
+}
+
+.navDiv h3{
+  cursor: pointer;
+  color: blue;
+  font-weight: 500;
+  font-size: 25px;
+}
