@@ -18,8 +18,8 @@ import "./skills.css";
 
 const Skills = () => {
   return (
-    <div id="skills" className="skillsContainer">
-      <h1 style={{ textAlign: "center" }} id="skillsDiv">SKILLS</h1>
+    <div  className="skillsContainer">
+      <h1 style={{ textAlign: "center" }}>SKILLS</h1>
       <div className="skillsImagesDivs">
         <div className="skill">
           <img src={htmlIcon} alt="html" />

@@ -4,11 +4,17 @@ import Skills from "../skills/skills"
 
 
 const Main = () => {
-  return(
+  return (
     <div>
-      <Header />
-      <About />
-      <Skills />
+      <div id="nav">
+        <Header />
+      </div>
+      <div id="about">
+        <About />
+      </div>
+      <div id="skills">
+        <Skills />
+      </div>
     </div>
   )
 }
