@@ -18,7 +18,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 20px;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
@@ -28,8 +28,8 @@
 .skill {
   background-color: #0f172a;
   border-radius: 10px;
-  width: 13%;
-  height: 13%;
+  width: 12%;
+  height: 12%;
   display: block;
   text-align: center;
   padding: 0.5rem;
