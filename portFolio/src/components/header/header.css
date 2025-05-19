@@ -1,13 +1,13 @@
-*{
-  margin:0;
+* {
+  margin: 0;
   padding: 0;
 }
 
-body{
+body {
   height: 100vh;
 }
 
-.navList{
+.navList {
   display: flex;
   flex-wrap: nowrap;
   width: 100%;
@@ -16,13 +16,22 @@ body{
   font-weight: 600;
 }
 
-.navItem{
+.navItem {
   list-style: none;
   font-size: 25px;
   cursor: pointer;
 }
 
-.navDiv{
+.navItem a {
+  text-decoration: none;
+  color: white;
+}
+
+.navItem a:hover {
+  color: #007bff;
+}
+
+.navDiv {
   position: fixed;
   top: 0;
   height: 70px;
@@ -37,9 +46,14 @@ body{
   user-select: none;
 }
 
-.navDiv h3{
+.navDiv h3 {
   cursor: pointer;
   color: #007bff;
-  font-weight: 500;
-  font-size: 25px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.navDiv h3 a {
+  text-decoration: none;
+  color: #007bff;
 }
