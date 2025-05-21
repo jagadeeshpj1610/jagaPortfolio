@@ -28,7 +28,7 @@
 .skill {
   background-color: #0f172a;
   border-radius: 10px;
-  width: 15%;
+  width: 13%;
   height: 10%;
   text-align: center;
   padding: 0.5rem;
@@ -36,6 +36,11 @@
   padding: 10px;
   margin: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.skill:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .skill h3{

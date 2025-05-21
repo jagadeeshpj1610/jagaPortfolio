@@ -31,15 +31,15 @@ const Skills = () => {
         </div>
         <div className="skill">
           <img src={jsIcon} alt="js" />
-          <h3>Javascript</h3>
+          <h3>JavaScript</h3>
         </div>
         <div className="skill">
           <img src={reactIcon} alt="react" />
-          <h3>React Js</h3>
+          <h3>React JS</h3>
         </div>
         <div  className="skill">
           <img src={nodeIcon} alt="node" />
-          <h3>Node JS</h3>
+          <h3>NodeJS</h3>
         </div>
         <div  className="skill">
           <img src={mysqlIcon} alt="mysql" />
@@ -47,7 +47,7 @@ const Skills = () => {
         </div>
         <div className="skill">
           <img src={mongodbIcon} alt="mongodb" />
-          <h3>Mongodb</h3>
+          <h3>MongoDB</h3>
         </div>
         <div className="skill">
           <img src={pythonIcon} alt="python" />
