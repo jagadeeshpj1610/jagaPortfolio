@@ -6,7 +6,10 @@ const About = () => {
   return (
     <div className="aboutContainer">
       <div className="about">
-        <img src={profileImage} alt="profileImage" className="profileImage" />
+        <div className="profileDiv">
+          <img src={profileImage} alt="profileImage" className="profileImage" />
+          <h2>Jagadeesh Pachikura</h2>
+        </div>
         <div className="aboutContent">
           <p>Andhra Pradesh India</p>
           <p>I am a Passionate Frontend Developer with 1+ years of Experience, crafting innovative and user-friendly web solutions. I love working on projects that help me grow.</p>

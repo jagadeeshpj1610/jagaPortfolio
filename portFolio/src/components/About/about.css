@@ -6,7 +6,7 @@
 
 
 .aboutContainer {
-  height: 86vh;
+  height: 89vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -17,7 +17,7 @@
 .about {
   background-color: #0f172a;
   border-radius: 10px;
-  padding: 4rem 2rem;
+  padding: 2rem 2rem;
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -33,6 +33,18 @@
   border: 3px solid #007bff;
   object-fit: cover;
   flex-shrink: 0;
+}
+
+.profileDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileDiv h2{
+  padding-top: 15px;
+  font-size: 1.7rem;
 }
 
 .aboutContent {

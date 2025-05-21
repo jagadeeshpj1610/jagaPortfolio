@@ -8,11 +8,11 @@ const Header = () => {
       </div>
       <div className="childSecond">
         <ul className="navList">
-          <li className="navItem"><a href="#about">About</a></li>
-          <li className="navItem"><a href="#skills">Skills</a></li>
-          <li className="navItem"><a href="#experiance">Experiance</a></li>
-          <li className="navItem"><a href="#projects">Projects</a></li>
-          <li className="navItem"><a href="#contact">Contact Me</a></li>
+          <li className="navItem"><a href="#about">ABOUT</a></li>
+          <li className="navItem"><a href="#skills">SKILLS</a></li>
+          <li className="navItem"><a href="#experience">EXPERIENCE</a></li>
+          <li className="navItem"><a href="#projects">PROJECTS</a></li>
+          <li className="navItem"><a href="#contact">CONTACT ME</a></li>
         </ul>
       </div>
     </div>
