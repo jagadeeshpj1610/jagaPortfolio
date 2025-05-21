@@ -6,7 +6,7 @@
 
 
 .aboutContainer {
-  height: 82vh;
+  height: 86vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -17,18 +17,18 @@
 .about {
   background-color: #0f172a;
   border-radius: 10px;
-  padding: 3rem 2rem;
+  padding: 4rem 2rem;
   display: flex;
   align-items: center;
   gap: 2rem;
   color: #daddad;
-  width: 70%;
+  width: 65%;
   /* height: 64%; */
 }
 
 .profileImage {
-  width: 220px;
-  height: 220px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   border: 3px solid #007bff;
   object-fit: cover;
@@ -41,7 +41,7 @@
 }
 
 .aboutContent p {
-  font-size: 17px;
+  font-size: 19px;
   line-height: 1.6;
   margin-bottom: 1rem;
   font-weight: 500;
