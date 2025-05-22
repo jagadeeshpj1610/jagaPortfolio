@@ -60,3 +60,25 @@
 }
 
 
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    width: 90%;
+    padding: 1rem;
+    height: auto;
+  }
+
+  .profileImage {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem;
+  }
+
+  .profileDiv h2 {
+    font-size: 1.3rem;
+  }
+
+  .aboutContent p {
+    font-size: 16px;
+  }
+}
