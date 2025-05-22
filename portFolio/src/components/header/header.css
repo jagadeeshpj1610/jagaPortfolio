@@ -77,3 +77,32 @@ body {
 #contact {
   scroll-margin-top: var(--header-height);
 }
+
+@media (max-width: 600px) {
+  .navDiv {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+    gap: 10px;
+  }
+
+  .navDiv h3 {
+    font-size: 24px;
+  }
+
+  .navList {
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    align-items: center;
+  }
+
+  .navItem {
+    font-size: 14px;
+  }
+
+  .navItem a {
+    display: block;
+    padding: 5px 10px;
+  }
+}
