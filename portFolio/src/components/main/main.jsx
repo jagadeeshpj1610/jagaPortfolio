@@ -9,10 +9,8 @@ import Footer from "../footer/footer"
 
 const Main = () => {
   return (
-    <div>
-      <div id="nav">
-        <Header />
-      </div>
+    <>
+      <Header />
       <div id="about">
         <About />
       </div>
@@ -31,7 +29,8 @@ const Main = () => {
       <div>
         <Footer />
       </div>
-    </div>
+    </>
+
   )
 }
 

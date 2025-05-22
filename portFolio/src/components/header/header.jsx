@@ -2,7 +2,7 @@ import "../header/header.css"
 
 const Header = () => {
   return (
-    <div className="navDiv">
+    <div className="navDiv" id="nav">
       <div className="childOne">
         <h3><a href="#nav">Jagadeesh Pachikura</a></h3>
       </div>

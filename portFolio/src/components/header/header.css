@@ -44,6 +44,7 @@ body {
   width: 100%;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   user-select: none;
+  z-index: 100;
 }
 
 .navDiv h3 {
@@ -56,4 +57,23 @@ body {
 .navDiv h3 a {
   text-decoration: none;
   color: #007bff;
+}
+
+/* #about,
+#skills,
+#experience,
+#projects,
+#contact {
+  scroll-margin-top: 80px;
+} */
+ :root {
+  --header-height: 80px;
+}
+
+#about,
+#skills,
+#experience,
+#projects,
+#contact {
+  scroll-margin-top: var(--header-height);
 }
