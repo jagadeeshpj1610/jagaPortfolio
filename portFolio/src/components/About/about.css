@@ -109,3 +109,13 @@
     margin-bottom: 10px !important;
   }
 }
+
+@media (max-width: 600px) {
+  .aboutContainer {
+    padding-top: 80px;
+  }
+  /* You can add this padding-top to other sections as well */
+  #skills, #experience, #projects, #contact {
+    padding-top: 80px;
+  }
+}
