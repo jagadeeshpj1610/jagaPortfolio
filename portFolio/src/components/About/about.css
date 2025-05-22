@@ -119,3 +119,9 @@
     padding-top: 80px;
   }
 }
+
+@media (max-width: 600px) {
+  .aboutContainer {
+    padding-top: 80px; /* same as your header height */
+  }
+}
