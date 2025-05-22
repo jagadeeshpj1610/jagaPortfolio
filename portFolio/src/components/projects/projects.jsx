@@ -1,6 +1,6 @@
 
 import "../projects/projects.css"
-import portFolio from "../../assets/portFolioThumbnail.png"
+import portFolio from "../../assets/pj.png"
 import bank from "../../assets/magadhaBank.png"
 
 const Projects = () => {
