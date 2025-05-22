@@ -45,12 +45,21 @@
     font-size: 1.2rem;
   }
 
-  /* .socialIcons {
+  .socilaLinks p {
+    font-size: 1.2rem;
+    color: white;
+    padding-bottom: 2rem;
+  }
+
+  .socialIcons {
     display: flex;
-  } */
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+  }
 
 .socialIcons svg{
-  width: 70px;
-  height: 35px;
+  width: 80px;
+  height: 40px;
 }
 
