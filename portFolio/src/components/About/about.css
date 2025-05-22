@@ -23,7 +23,7 @@
   gap: 2rem;
   color: #daddad;
   width: 65%;
-  /* height: 64%; */
+
 }
 
 .profileImage {
@@ -32,7 +32,7 @@
   border-radius: 50%;
   border: 3px solid #007bff;
   object-fit: cover;
-  /* margin-left: 70px; */
+
 }
 
 .profileDiv {
@@ -60,34 +60,3 @@
 }
 
 
-@media (max-width: 600px) {
-  .aboutContainer {
-    padding-top: 90px; /* to clear the fixed header */
-    padding-left: 10px;
-    padding-right: 10px;
-    height: auto; /* avoid fixed height */
-  }
-
-  .about {
-    flex-direction: column; /* stack image and content vertically */
-    width: 100%; /* full width on small screen */
-    gap: 1rem; /* smaller gap */
-    padding: 1rem; /* less padding */
-  }
-
-  .profileImage {
-    width: 150px;
-    height: 150px;
-    margin: 0 auto; /* center the image */
-  }
-
-  .profileDiv h2 {
-    font-size: 1.4rem; /* smaller font */
-    text-align: center;
-    padding-top: 10px;
-  }
-
-  .aboutContent p {
-    font-size: 16px; /* smaller font size */
-  }
-}
