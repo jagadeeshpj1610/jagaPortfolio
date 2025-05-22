@@ -25,7 +25,7 @@ const Main = () => {
       <div id="projects">
         <Projects />
       </div>
-      <div className="contactMe">
+      <div id="contact">
         <ContactMe />
       </div>
       <div>
