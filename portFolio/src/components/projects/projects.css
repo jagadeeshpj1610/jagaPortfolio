@@ -39,10 +39,10 @@
 }
 
 
-.bankThumbnail{
+.bankThumbnail {
   width: 500px;
   height: 250px;
-    border-radius: 10px;
+  border-radius: 10px;
   /* object-fit: cover; */
   border: 1px solid white;
   cursor: pointer;
@@ -56,17 +56,38 @@
   justify-content: center;
 }
 
+.port2 {
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+}
+
 .hlo {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* .hloo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
 .port1 h3 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
   color: white;
 }
+
+.port2 h3 {
+  font-size: 1.8rem;
+  margin-bottom: 3px;
+  color: white;
+}
+
 
 .port1 p {
   margin-bottom: 1rem;
@@ -76,20 +97,50 @@
 
 .port1 a {
   display: inline-block;
+  margin-right: 2.3rem;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  padding: 8px;
+  border: 1px solid white;
+  width: 180px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.port2 p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  color: white;
+}
+
+.port2 a {
+  display: inline-block;
   margin-right: 1rem;
   margin-top: 0.5rem;
   text-decoration: none;
   color: #007bff;
   font-weight: 500;
   transition: color 0.3s ease;
-  padding: 12px;
+  padding: 8px;
   border: 1px solid white;
-  width: 200px;
+  width: 180px;
   text-align: center;
   border-radius: 5px;
   font-size: 1.2rem;
 }
 
 .port1 a:hover {
-  color: red;
+  background-color: white;
+  color: black;
+  font-weight: 500;
+}
+
+.port2 a:hover {
+  background-color: white;
+  color: black;
+  font-weight: 500;
 }
