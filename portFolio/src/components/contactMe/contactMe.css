@@ -1,0 +1,56 @@
+.contactHeading{
+  text-align: center;
+  padding: 2rem;
+  color: white;
+  font-size: 2rem;
+}
+
+.contactContainer{
+  background-color: #0f172a;
+  width: 70%;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.contactContent{
+  /* background-color: #0f172a; */
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  padding: 2rem;
+  line-height: 1.7;
+}
+
+.contactContent p{
+  padding: 1rem;
+}
+
+.contactContent img{
+  width: 4%;
+  height: 2%;
+  color: white;
+  /* border: 1px solid white; */
+}
+
+  .emailSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .emailSection a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  /* .socialIcons {
+    display: flex;
+  } */
+
+.socialIcons svg{
+  width: 70px;
+  height: 35px;
+}
+

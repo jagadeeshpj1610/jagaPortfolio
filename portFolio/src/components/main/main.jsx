@@ -3,6 +3,7 @@ import About from "../About/About"
 import Skills from "../skills/skills"
 import Experience from "../experience/experience"
 import Projects from "../projects/projects"
+import ContactMe from "../contactMe/contactMe"
 
 
 const Main = () => {
@@ -22,6 +23,9 @@ const Main = () => {
       </div>
       <div id="projects">
         <Projects />
+      </div>
+      <div className="contactMe">
+        <ContactMe />
       </div>
     </div>
   )
