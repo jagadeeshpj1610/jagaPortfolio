@@ -62,66 +62,32 @@
 
 @media (max-width: 600px) {
   .aboutContainer {
-    height: auto;
-    padding: 10px;
+    padding-top: 90px; /* to clear the fixed header */
+    padding-left: 10px;
+    padding-right: 10px;
+    height: auto; /* avoid fixed height */
   }
 
   .about {
-    flex-direction: column;
-    width: 90%;
-    gap: 1rem;
-    padding: 1rem;
+    flex-direction: column; /* stack image and content vertically */
+    width: 100%; /* full width on small screen */
+    gap: 1rem; /* smaller gap */
+    padding: 1rem; /* less padding */
   }
 
   .profileImage {
     width: 150px;
     height: 150px;
+    margin: 0 auto; /* center the image */
   }
 
   .profileDiv h2 {
-    font-size: 1.4rem;
-    padding-top: 10px;
+    font-size: 1.4rem; /* smaller font */
     text-align: center;
-  }
-
-  .aboutContent {
-    max-width: 100%;
+    padding-top: 10px;
   }
 
   .aboutContent p {
-    font-size: 16px;
-    margin-left: 0;
-    text-align: justify;
-  }
-
-  .aboutContent > div {
-    justify-content: center;
-    gap: 8px;
-  }
-
-  .aboutContent > div p {
-    font-size: 14px;
-  }
-
-  svg.icon {
-    width: 24px !important;
-    height: 24px !important;
-    margin-bottom: 10px !important;
-  }
-}
-
-@media (max-width: 600px) {
-  .aboutContainer {
-    padding-top: 80px;
-  }
-  /* You can add this padding-top to other sections as well */
-  #skills, #experience, #projects, #contact {
-    padding-top: 80px;
-  }
-}
-
-@media (max-width: 600px) {
-  .aboutContainer {
-    padding-top: 80px; /* same as your header height */
+    font-size: 16px; /* smaller font size */
   }
 }
