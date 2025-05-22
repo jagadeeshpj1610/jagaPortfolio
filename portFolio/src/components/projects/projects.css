@@ -14,7 +14,9 @@
   flex-direction: column;
   gap: 25px;
   /* background-color: #0f172a; */
+  user-select: none;
 }
+
 
 .portFolio {
   display: flex;
@@ -27,12 +29,23 @@
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.port img {
+.portfolioThumbnail {
   max-width: 500px;
   height: 250px;
   border-radius: 10px;
   object-fit: cover;
   border: 1px solid white;
+  cursor: pointer;
+}
+
+
+.bankThumbnail{
+  width: 500px;
+  height: 250px;
+    border-radius: 10px;
+  /* object-fit: cover; */
+  border: 1px solid white;
+  cursor: pointer;
 }
 
 .port1 {

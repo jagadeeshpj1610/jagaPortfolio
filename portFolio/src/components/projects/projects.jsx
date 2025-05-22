@@ -10,14 +10,14 @@ const Projects = () => {
       <div className="projects">
         <div className="portFolio">
           <div className="port">
-            <img src={portFolio} alt="" />
+            <img src={portFolio} alt="" className="portfolioThumbnail" />
           </div>
           <div className="port1">
             <h3>Personal Portfolio</h3>
             <p>A personal Portfolio Website, Where I want to showcase my skills, projects and experience. </p>
             <p>I have this website build using ReactJS.</p>
             <div className="hlo">
-              <a href="">View Site</a>
+              <a href="">View Website</a>
               <a href="https://github.com/jagadeeshpj1610/jagaPortfolio.git">View code</a>
             </div>
           </div>
@@ -25,14 +25,14 @@ const Projects = () => {
         </div>
         <div className="portFolio">
           <div className="port">
-            <img src={bank} alt="" />
+            <img src={bank} alt="" className="bankThumbnail" />
           </div>
           <div className="port1">
             <h3>Personal Portfolio</h3>
             <p>A personal Portfolio Website, Where I want to showcase my skills, projects and experience. </p>
             <p>I have this website build using ReactJS.</p>
             <div className="hlo">
-              <a href="https://magadha.onrender.com/">View Site</a>
+              <a href="https://magadha.onrender.com/">View Website</a>
               <a href="https://github.com/jagadeeshpj1610/bankProject.git">View code</a>
             </div>
           </div>
@@ -40,14 +40,14 @@ const Projects = () => {
         </div>
         <div className="portFolio">
           <div className="port">
-            <img src={portFolio} alt="" />
+            <img src={portFolio} alt="" className="portfolioThumbnail" />
           </div>
           <div className="port1">
             <h3>Personal Portfolio</h3>
             <p>A personal Portfolio Website, Where I want to showcase my skills, projects and experience. </p>
             <p>I have this website build using ReactJS.</p>
             <div className="hlo">
-              <a href="">View Site</a>
+              <a href="">View Website</a>
               <a href="https://github.com/jagadeeshpj1610/jagaPortfolio.git">View code</a>
             </div>
           </div>
