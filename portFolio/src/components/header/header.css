@@ -119,6 +119,10 @@ body {
     padding-top: 20px;
   }
 
+  .childSecond h3{
+    font-size: smaller;
+  }
+
   /* Make nav list vertical on mobile */
   .navList {
     flex-direction: column;
