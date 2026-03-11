@@ -1,10 +1,10 @@
-.skillsContainer {
+/* .skillsContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 10px;
-  /* background-color: #2c2c2c; */
+  
 }
 
 .skillsContainer h1 {
@@ -56,4 +56,76 @@
   width: 70%;
   height: 70%;
   cursor: pointer;
+} */
+
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 5%;
+}
+
+.skillsContainer h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* FIXED: was flex with width: 13% (broke on mobile) → now CSS grid */
+.skillsImagesDivs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 1rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.skill {
+  background-color: #0f172a;
+  border: 1px solid rgba(59, 130, 246, 0.12);
+  border-radius: 12px;
+  text-align: center;
+  padding: 1.25rem 0.75rem;
+  transition: all 0.3s ease; /* FIXED: was "0.5sec" (invalid) */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.skill:hover {
+  transform: translateY(-5px);
+  border-color: #007bff;
+  box-shadow: 0 8px 24px rgba(0, 123, 255, 0.15);
+}
+
+.skill h3 {
+  color: #94a3b8;
+  font-weight: 600;
+  font-size: 0.75rem;
+  padding-top: 8px;
+}
+
+.skill img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .skillsImagesDivs { width: 90%; }
+}
+
+@media (max-width: 600px) {
+  .skillsImagesDivs {
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 380px) {
+  .skillsImagesDivs { grid-template-columns: repeat(2, 1fr); }
 }
