@@ -1,11 +1,12 @@
-.footer{
-  background-color: black;
-  color: white;
+.footer {
+  background-color: #060910;
+  border-top: 1px solid rgba(59, 130, 246, 0.12);
+  color: #64748b;
   display: flex;
   flex-direction: column;
   gap: 5px;
-  padding: 1rem;
+  padding: 1.5rem;
   justify-content: center;
   align-items: center;
-  font-size: 1rem;
+  font-size: 0.85rem;
 }

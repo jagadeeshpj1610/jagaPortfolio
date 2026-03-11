@@ -12,7 +12,8 @@ const ContactMe = () => {
             <p>Feel Free to Connect, reach out to me on</p>
             <div className="emailSection">
               <img src={email} alt="" />
-              <a href="mailto:jagadeeshpacjukra1610@gmail.com">jagadeeshpachikura1610@gmail.com</a>
+              {/* <a href="mailto:jagadeeshpacjukra1610@gmail.com">jagadeeshpachikura1610@gmail.com</a> */}
+              <a href="mailto:jagadeeshpachikura1610@gmail.com">jagadeeshpachikura1610@gmail.com</a>
             </div>
           </div>
           <div className="socilaLinks">
@@ -27,7 +28,7 @@ const ContactMe = () => {
               <a href="mailto:jagadeeshpacjukra1610@gmail.com">
                 <svg width="800px" height="800px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" fill="#000000" className="icon"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"><title>mail-filled</title><g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"><g id="mail-filled-white" fill="#a6a6a6" transform="translate(42.686667, 85.339333)"><path d="M3.55271368e-14,28.7 L213.333914,220.70134 L426.667,28.701 L426.667248,341.333608 L0.00058094128,341.333608 L3.55271368e-14,28.7 Z M394.776,1.42108547e-14 L213.333914,163.285608 L31.89,1.42108547e-14 L394.776,1.42108547e-14 Z" id="Combined-Shape"></path></g></g></g></svg>
               </a>
-              <a href="www.linkedin.com/in/jagadeeshpj1610">
+              <a href="https://www.linkedin.com/in/jagadeeshpj1610">
                 <svg fill="#999999" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="-143 145 512 512" xmlSpace="preserve" width="179px" height="179px" className="icon"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"><g><path d="M329,145h-432c-22.1,0-40,17.9-40,40v432c0,22.1,17.9,40,40,40h432c22.1,0,40-17.9,40-40V185C369,162.9,351.1,145,329,145z M339,617c0,5.5-4.5,10-10,10h-432c-5.5,0-10-4.5-10-10V185c0-5.5,4.5-10,10-10h432c5.5,0,10,4.5,10,10V617z"></path><rect x="-8.5" y="348.4" width="49.9" height="159.7"></rect><path d="M177.7,346.9c-28.6,0-46.5,15.6-49.8,26.6v-25.1H71.8c0.7,13.3,0,159.7,0,159.7h56.1v-86.3c0-4.9-0.2-9.7,1.2-13.1 c3.8-9.6,12.1-19.6,27-19.6c19.5,0,28.3,14.8,28.3,36.4v82.6H241v-88.8C241,369.9,213.2,346.9,177.7,346.9z"></path><path d="M15.4,273c-18.4,0-30.5,11.9-30.5,27.7c0,15.5,11.7,27.7,29.8,27.7h0.4c18.8,0,30.5-12.3,30.4-27.7 C45.1,284.9,33.8,273,15.4,273z"></path></g></g></svg>
               </a>
             </div>
