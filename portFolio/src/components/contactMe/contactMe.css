@@ -1,96 +1,133 @@
-.contactHeading{
+.contactHeading {
   text-align: center;
-  padding: 2rem;
-  color: white;
-  font-size: 2rem;
+  color: #f1f5f9;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  margin-bottom: 2rem;
 }
 
-.contactContainer{
-  background-color: #0f172a;
-  width: 70%;
-  margin: auto;
-  border-radius: 5px;
-  margin-bottom: 3rem;
+.contactContainer {
+  background: linear-gradient(135deg, #0d1524, #0a1020);
+  border: 1px solid rgba(0, 123, 255, 0.13);
+  border-radius: 20px;
+  width: 58%;
+  margin: 0 auto 5rem;
+  padding: 2.5rem;
+  transition: border-color 0.3s ease;
+  position: relative;
+  z-index: 1;
 }
 
-.contactContent{
-  /* background-color: #0f172a; */
+.contactContainer:hover {
+  border-color: rgba(0, 123, 255, 0.3);
+}
+
+.contactContent {
   text-align: center;
   color: white;
-  font-size: 1.2rem;
-  padding: 2rem;
-  line-height: 1.7;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  margin-bottom: 1.5rem;
 }
 
-.contactContent p{
-  padding: 1rem;
+.contactContent > p {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
 }
 
-.contactContent img{
-  width: 4%;
-  height: 2%;
-  color: white;
-  /* border: 1px solid white; */
+.contactContent img {
+  width: 20px;
+  height: 20px;
 }
 
-  .emailSection{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-  }
-
-  .emailSection a{
-    text-decoration: none;
-    color: white;
-    font-size: 1.2rem;
-  }
-.socilaLinks{
-  padding-bottom: 2rem;
-}
-  .socilaLinks p {
-    font-size: 1.2rem;
-    color: white;
-    padding-bottom: 2rem;
-
-  }
-
-  .socialIcons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 22px;
-  }
-
-.socialIcons svg{
-  width: 80px;
-  height: 40px;
+.emailSection {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: rgba(0,123,255,0.06);
+  border: 1px solid rgba(0,123,255,0.2);
+  border-radius: 10px;
+  padding: 0.65rem 1.25rem;
+  transition: all 0.2s ease;
 }
 
-
-.socialIcons svg:hover{
-  transform: scale(1.1);
-  transition: all 0.3s ease;
-  border-radius: 5px;
-  padding: 0px;
-  cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-
+.emailSection:hover {
+  background: rgba(0,123,255,0.1);
+  border-color: #007bff;
 }
 
+.emailSection a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
 
-/* Add this at the bottom of your existing contactMe.css */
+/* Social section */
+.socilaLinks {
+  text-align: center;
+}
+
+.socilaLinks > p {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #475569;
+  margin-bottom: 1.25rem;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+/* Each icon link becomes a clean square button */
+.socialIcons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  background: rgba(255,255,255,0.02);
+  transition: all 0.25s ease;
+}
+
+.socialIcons a:hover {
+  border-color: rgba(0, 123, 255, 0.5);
+  background: rgba(0, 123, 255, 0.08);
+  transform: translateY(-3px);
+}
+
+/* Override svg size to fit square buttons */
+.socialIcons svg {
+  width: 22px !important;
+  height: 22px !important;
+}
+
+.socialIcons svg:hover {
+  transform: none;
+  box-shadow: none;
+}
 
 @media (max-width: 900px) {
-  .contactContainer { width: 80%; }
+  .contactContainer { width: 78%; }
 }
 
 @media (max-width: 600px) {
-  .contactContainer { width: 92%; }
-  .contactContent { padding: 1.5rem 1rem; }
-  .socilaLinks { padding: 0 1rem 1.5rem; }
-  .emailSection { flex-direction: column; }
-  .emailSection a { font-size: 0.9rem; text-align: center; }
-  .socialIcons { gap: 15px; }
-  .socialIcons svg { width: 55px !important; height: 35px !important; }
+  .contactContainer { width: 90%; padding: 2rem 1.5rem; }
+  .emailSection { flex-direction: column; text-align: center; }
+  .emailSection a { font-size: 0.82rem; word-break: break-all; }
+}
+
+@media (max-width: 400px) {
+  .contactContainer { width: 94%; }
 }
