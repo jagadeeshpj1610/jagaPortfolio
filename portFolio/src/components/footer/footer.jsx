@@ -1,13 +1,12 @@
-import "../footer/footer.css"
+import "../footer/footer.css";
 
-
-const Footer = () =>{
-  return(
-    <div  className="footer">
-      <p>Designed and Build by Jaga</p>
-      <p>© 2025 Jagadeesh Pachikura</p>
+const Footer = () => {
+  return (
+    <div className="footer">
+      <p>Designed & Built by Jagadeesh Pachikura</p>
+      <p>© 2026 All rights reserved.</p>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
