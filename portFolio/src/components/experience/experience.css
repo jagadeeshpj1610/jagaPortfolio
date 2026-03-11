@@ -1,127 +1,112 @@
-/* .experienceHeading {
-  text-align: center;
-  color: white;
-  padding: 3rem 0;
-  font-size: 2rem;
-}
-
-.experience{
-  background-color: #0f172a;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-  padding: 2rem 2rem;
-  border-radius: 10px;
-  color: #daddad;
-  display: flex;
-
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  font-weight: 500;
-  line-height: 1.6;
-
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  user-select: none;
-}
-
-.experienceContent{
-  border-left: 3px solid #007bff;
-  padding: 2rem 2rem;
-  font-size: 1.2rem;
-
-}
-
-
-.experienceContent p{
-  padding-bottom: 1.5rem;
-}
-
-
-.timeLine{
-  width: 36%;
-} */
-
 .experienceHeading {
   text-align: center;
-  color: white;
-  padding: 3rem 0 1rem;
-  font-size: 2rem;
+  color: #f1f5f9;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
   font-weight: 800;
+  letter-spacing: -0.03em;
+  margin-bottom: 2rem;
 }
 
 .experience {
-  background-color: #0f172a;
-  border: 1px solid rgba(59, 130, 246, 0.15);
-  margin: 1.5rem auto 4rem;
-  width: 70%;
+  background: linear-gradient(135deg, #0d1524, #0a1020);
+  border: 1px solid rgba(0, 123, 255, 0.13);
+  margin: 0 auto 4rem;
+  width: 68%;
   padding: 2.5rem;
-  border-radius: 16px;
-  color: #daddad;
+  border-radius: 20px;
+  color: #e2e8f0;
   display: flex;
-  justify-content: flex-start;
   align-items: flex-start;
   gap: 2rem;
-  font-weight: 500;
-  line-height: 1.6;
-  transition: border-color 0.3s ease;
+  line-height: 1.7;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
   user-select: none;
+  position: relative;
+  z-index: 1;
 }
 
-.experience:hover { border-color: #007bff; }
+.experience:hover {
+  border-color: rgba(0, 123, 255, 0.35);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+}
 
 .timeLine {
   flex-shrink: 0;
   width: 150px;
 }
 
-.timeLine p {
-  font-size: 0.82rem;
-  font-weight: 600;
-  letter-spacing: 0.06em;
+.timeLine > p {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: #007bff;
 }
 
+/* Internship badge */
+.expBadge {
+  display: inline-block;
+  margin-top: 0.6rem;
+  background: rgba(0, 123, 255, 0.08);
+  border: 1px solid rgba(0, 123, 255, 0.22);
+  border-radius: 20px;
+  padding: 3px 12px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: #007bff;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .experienceContent {
   flex: 1;
-  border-left: 3px solid rgba(0, 123, 255, 0.4);
-  padding: 0 0 0 2rem;
-  font-size: 0.97rem;
+  border-left: 2px solid rgba(0, 123, 255, 0.3);
+  padding-left: 2rem;
 }
 
 .experienceContent h3 {
   font-size: 1.2rem;
   font-weight: 700;
   color: #f1f5f9;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.expCompany {
+  font-size: 0.88rem;
+  color: #06b6d4;
+  font-weight: 500;
+  margin-bottom: 1rem;
 }
 
 .experienceContent p {
-  padding-bottom: 0.75rem;
+  font-size: 0.92rem;
   color: #94a3b8;
+  padding-bottom: 0.6rem;
   line-height: 1.8;
+  font-weight: 400;
 }
 
-/* ADDED: was completely missing before */
-@media (max-width: 768px) {
+@media (max-width: 820px) {
+  .experience { width: 85%; }
+}
+
+@media (max-width: 600px) {
   .experience {
     flex-direction: column;
-    width: 88%;
+    width: 90%;
     padding: 1.75rem;
     gap: 1rem;
   }
-
-  .timeLine { width: 100%; }
-
+  .timeLine { width: 100%; display: flex; align-items: center; gap: 1rem; }
+  .expBadge { margin-top: 0; }
   .experienceContent {
     border-left: none;
-    border-top: 3px solid rgba(0, 123, 255, 0.4);
-    padding: 1.25rem 0 0;
+    border-top: 2px solid rgba(0, 123, 255, 0.3);
+    padding-left: 0;
+    padding-top: 1.25rem;
   }
 }
 
 @media (max-width: 480px) {
-  .experience { width: 92%; padding: 1.25rem; }
-  .experienceHeading { font-size: 1.6rem; }
+  .experience { width: 93%; padding: 1.5rem; }
 }
