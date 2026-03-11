@@ -1,10 +1,10 @@
 .projectsHeading {
   font-size: 2rem;
+  font-weight: 800;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
   color: white;
   padding-top: 2rem;
-  font-weight: bold;
 }
 
 .projects {
@@ -12,135 +12,112 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 25px;
-  /* background-color: #0f172a; */
+  gap: 1.5rem;
+  padding: 1.5rem 5% 4rem;
   user-select: none;
 }
-
 
 .portFolio {
   display: flex;
   flex-wrap: wrap;
-  gap: 3rem;
+  gap: 2.5rem;
   background-color: #0f172a;
+  border: 1px solid rgba(59, 130, 246, 0.15);
   padding: 2rem;
-  border-radius: 12px;
-  max-width: 1060px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  width: 100%;
+  max-width: 1000px;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.portFolio:hover {
+  border-color: #007bff;
+  transform: translateY(-3px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.3);
 }
 
 .portfolioThumbnail {
-  max-width: 500px;
-  height: 250px;
+  width: 340px;
+  height: 210px;
   border-radius: 10px;
   object-fit: cover;
-  border: 1px solid white;
-  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  display: block;
 }
-
 
 .bankThumbnail {
-  width: 500px;
-  height: 250px;
+  width: 340px;
+  height: 210px;
   border-radius: 10px;
-  /* object-fit: cover; */
-  border: 1px solid white;
-  cursor: pointer;
+  object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  display: block;
 }
 
-.port1 {
+.port1, .port2 {
   flex: 1;
+  min-width: 240px;
+  display: flex;
   flex-direction: column;
-  display: flex;
-  padding: 5px;
   justify-content: center;
 }
 
-.port2 {
-  flex: 1;
-  flex-direction: column;
-  display: flex;
-  padding: 5px;
-  justify-content: center;
+.port1 h3, .port2 h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #f1f5f9;
+  margin-bottom: 0.5rem;
 }
 
-.hlo {
+.port1 p, .port2 p {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #94a3b8;
+  margin-bottom: 0.4rem;
+}
+
+/* FIXED: .hloo was missing entirely */
+.hlo, .hloo {
   display: flex;
-  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 0.75rem;
+}
+
+.port1 a, .port2 a {
+  display: inline-flex;
   align-items: center;
-}
-
-/* .hloo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
-.port1 h3 {
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-  color: white;
-}
-
-.port2 h3 {
-  font-size: 1.8rem;
-  margin-bottom: 3px;
-  color: white;
-}
-
-
-.port1 p {
-  margin-bottom: 1rem;
-  line-height: 1.6;
-  color: white;
-}
-
-.port1 a {
-  display: inline-block;
-  margin-right: 2.3rem;
-  margin-top: 0.5rem;
+  gap: 6px;
   text-decoration: none;
   color: #007bff;
   font-weight: 500;
-  transition: color 0.3s ease;
-  padding: 8px;
-  border: 1px solid white;
-  width: 180px;
-  text-align: center;
-  border-radius: 5px;
-  font-size: 1.2rem;
+  font-size: 0.87rem;
+  padding: 0.55rem 1.1rem;
+  border: 1px solid rgba(0, 123, 255, 0.3);
+  border-radius: 8px;
+  transition: all 0.25s ease;
 }
 
-.port2 p {
-  margin-bottom: 10px;
-  line-height: 1.6;
+.port1 a:hover, .port2 a:hover {
+  background-color: rgba(0, 123, 255, 0.08);
+  border-color: #007bff;
   color: white;
 }
 
-.port2 a {
-  display: inline-block;
-  margin-right: 1rem;
-  margin-top: 0.5rem;
-  text-decoration: none;
-  color: #007bff;
-  font-weight: 500;
-  transition: color 0.3s ease;
-  padding: 8px;
-  border: 1px solid white;
-  width: 180px;
-  text-align: center;
-  border-radius: 5px;
-  font-size: 1.2rem;
+@media (max-width: 900px) {
+  .portfolioThumbnail, .bankThumbnail {
+    width: 100%;
+    height: 200px;
+  }
+
+  .portFolio { flex-direction: column; gap: 1.5rem; }
 }
 
-.port1 a:hover {
-  background-color: white;
-  color: black;
-  font-weight: 500;
-}
+@media (max-width: 600px) {
+  .projects { padding: 1rem 4% 3rem; }
+  .portFolio { padding: 1.5rem; }
+  .port1 h3, .port2 h3 { font-size: 1.2rem; }
 
-.port2 a:hover {
-  background-color: white;
-  color: black;
-  font-weight: 500;
+  .hlo, .hloo { flex-direction: column; }
+  .port1 a, .port2 a { justify-content: center; }
 }
