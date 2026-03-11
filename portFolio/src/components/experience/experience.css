@@ -1,4 +1,4 @@
-.experienceHeading {
+/* .experienceHeading {
   text-align: center;
   color: white;
   padding: 3rem 0;
@@ -14,13 +14,13 @@
   border-radius: 10px;
   color: #daddad;
   display: flex;
-  /* flex-direction: column; */
+
   justify-content: center;
   align-items: center;
   gap: 2rem;
   font-weight: 500;
   line-height: 1.6;
-  /* margin-bottom: 20px; */
+
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   user-select: none;
 }
@@ -29,7 +29,7 @@
   border-left: 3px solid #007bff;
   padding: 2rem 2rem;
   font-size: 1.2rem;
-  /* margin: 5px; */
+
 }
 
 
@@ -40,4 +40,88 @@
 
 .timeLine{
   width: 36%;
+} */
+
+.experienceHeading {
+  text-align: center;
+  color: white;
+  padding: 3rem 0 1rem;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.experience {
+  background-color: #0f172a;
+  border: 1px solid rgba(59, 130, 246, 0.15);
+  margin: 1.5rem auto 4rem;
+  width: 70%;
+  padding: 2.5rem;
+  border-radius: 16px;
+  color: #daddad;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2rem;
+  font-weight: 500;
+  line-height: 1.6;
+  transition: border-color 0.3s ease;
+  user-select: none;
+}
+
+.experience:hover { border-color: #007bff; }
+
+.timeLine {
+  flex-shrink: 0;
+  width: 150px;
+}
+
+.timeLine p {
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #007bff;
+}
+
+.experienceContent {
+  flex: 1;
+  border-left: 3px solid rgba(0, 123, 255, 0.4);
+  padding: 0 0 0 2rem;
+  font-size: 0.97rem;
+}
+
+.experienceContent h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #f1f5f9;
+  margin-bottom: 0.5rem;
+}
+
+.experienceContent p {
+  padding-bottom: 0.75rem;
+  color: #94a3b8;
+  line-height: 1.8;
+}
+
+/* ADDED: was completely missing before */
+@media (max-width: 768px) {
+  .experience {
+    flex-direction: column;
+    width: 88%;
+    padding: 1.75rem;
+    gap: 1rem;
+  }
+
+  .timeLine { width: 100%; }
+
+  .experienceContent {
+    border-left: none;
+    border-top: 3px solid rgba(0, 123, 255, 0.4);
+    padding: 1.25rem 0 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .experience { width: 92%; padding: 1.25rem; }
+  .experienceHeading { font-size: 1.6rem; }
 }
