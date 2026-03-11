@@ -35,7 +35,7 @@ const Header = () => {
   return (
     <div className="navDiv" id="nav">
       <div className="childOne">
-        <h3><a href="#nav">JP.</a></h3>
+        <h3><a href="#nav">PJ</a></h3>
       </div>
 
       <div className="hamburger" onClick={toggleMenu}>
