@@ -6,7 +6,6 @@ import Projects from "../projects/projects"
 import ContactMe from "../contactMe/contactMe"
 import Footer from "../footer/footer"
 
-
 const Main = () => {
   return (
     <>
@@ -14,15 +13,19 @@ const Main = () => {
       <div id="about">
         <About />
       </div>
+      <div className="sectionDivider"></div>
       <div id="skills">
         <Skills />
       </div>
+      <div className="sectionDivider"></div>
       <div id="experience">
         <Experience />
       </div>
+      <div className="sectionDivider"></div>
       <div id="projects">
         <Projects />
       </div>
+      <div className="sectionDivider"></div>
       <div id="contact">
         <ContactMe />
       </div>
@@ -30,7 +33,6 @@ const Main = () => {
         <Footer />
       </div>
     </>
-
   )
 }
 
