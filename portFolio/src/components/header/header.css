@@ -150,3 +150,12 @@
 
   .hamburger { display: flex; }
 }
+
+/* Active nav link */
+.navItem a.activeNav {
+  color: white;
+}
+
+.navItem a.activeNav::after {
+  width: 100%;
+}

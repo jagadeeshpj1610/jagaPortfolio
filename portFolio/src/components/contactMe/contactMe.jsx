@@ -9,7 +9,7 @@ const ContactMe = () => {
       <div className="contactContainer">
         <div className="contactMe">
           <div className="contactContent">
-            <p>Feel free to reach out — I'd love to connect</p>
+            <p>Whether you have an opportunity, a project idea, or just want to say hi — my inbox is always open.</p>
             <div className="emailSection">
               <img src={email} alt="email" />
               {/* FIXED typo: jagadeeshpacjukra → jagadeeshpachikura */}

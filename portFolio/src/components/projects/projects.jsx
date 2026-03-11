@@ -36,7 +36,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="portFolio">
+        {/* <div className="portFolio">
           <div className="port">
             <img src={bank} alt="Magadha Banking" className="bankThumbnail" />
           </div>
@@ -61,7 +61,7 @@ const Projects = () => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
 
       </div>
     </>

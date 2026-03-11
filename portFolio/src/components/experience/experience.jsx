@@ -18,9 +18,7 @@ const Experience = () => {
             where "We Work While Learning", gaining real-world exposure from day one.
           </p>
           <p>
-            Worked on real-time projects, applying modern technologies, best practices,
-            and engineering principles. Mentored by multiple industry experts who helped
-            me build a strong foundation for my career in the IT industry.
+ThoughtWorks is a global technology consultancy. As a PATH intern, I worked on real projects in an Agile environment — applying React JS, Node.js, REST APIs and engineering best practices under the guidance of senior industry engineers.
           </p>
         </div>
       </div>
